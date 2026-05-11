@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 
 from preprocessor import temizle, tarih_parse
 from classifier import siniflandir, KEYWORDS
-from konum_bulucu import konum_cikar, koordinat_bul, ilce_bul
+from location_finder import konum_cikar, koordinat_bul, ilce_bul
 from database import haber_kaydet, haber_var_mi, veritabanini_temizle
 
 load_dotenv()
