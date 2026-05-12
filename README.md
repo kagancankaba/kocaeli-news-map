@@ -6,6 +6,8 @@ A desktop application that automatically scrapes, classifies, and visualizes loc
 
 Scrapes news from 4 local Kocaeli news sources (Çağdaş Kocaeli, Özgür Kocaeli, Ses Kocaeli, Bizim Yaka) for the last 1-3 days. Each article is cleaned, classified into one of 5 categories using keyword scoring, and geolocated using Google Geocoding API. Duplicate articles from different sources are merged using TF-IDF cosine similarity. All data is stored in MongoDB and displayed on an interactive map with color-coded markers.
 
+![Screenshot](screenshots/screenshot.png)
+
 ## News Categories
 
 - Traffic Accident — red markers
